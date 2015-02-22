@@ -1,0 +1,17 @@
+{
+    "require": {
+        "behat/behat": "2.4.*@stable",
+        "phpunit/phpunit": "~4.7",
+        "behat/mink": "1.4.*@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*",
+        "behat/mink-selenium2-driver": "*"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/",
+        "process-timeout": 600,
+        "preferred-install": "dist",
+        "github-protocols": ["https"]
+    }
+}
